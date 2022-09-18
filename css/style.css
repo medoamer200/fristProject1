@@ -1,0 +1,652 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*==================== start first part style=========================================*/
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+
+section .main {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dark1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    animation-name: changebackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/*========animation======*/
+
+
+@keyframes changebackground {
+    25% {
+        background-image: url(../images/dark2.jpg);
+
+
+    }
+
+    50% {
+        background-image: url(../images/dark3.jpg);
+
+
+    }
+
+
+}
+
+section .main .navebar {
+    background-image: linear-gradient(170deg, black 80%, white);
+    overflow: auto;
+}
+
+
+section .main .navebar ul {
+    list-style-type: none;
+}
+
+
+section .main .navebar ul .lihover {
+    float: left;
+    padding: 10px 15px;
+}
+
+
+
+section .main .navebar ul .lihover:hover {
+    background-color: darkblue;
+    border-radius: 15px;
+}
+
+section .main .navebar ul .floatleft {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+section .main .navebar ul .floatleft .home {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+section .main .navebar ul .floatright {
+    float: right;
+    padding: 10px 15px;
+}
+
+
+section .main .navebar ul .floatright button {
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+section .main .navebar ul .floatright .btn1 {
+    border: 1px solid white;
+}
+
+section .main .navebar ul .floatright .btn1:hover {
+    background-color: blue;
+}
+
+
+
+section .main .navebar ul .floatright .btn1 a {
+    color: blue;
+}
+
+section .main .navebar ul .floatright .btn1 a:hover {
+    color: white;
+}
+
+section .main .navebar ul .floatright .btn2 {
+    border: 1px solid white;
+}
+
+section .main .navebar ul .floatright .btn2:hover {
+    background-color: green;
+}
+
+section .main .navebar ul .floatright .btn2 a {
+    color: green;
+}
+
+
+section .main .navebar ul .floatright .btn2 a:hover {
+    color: white;
+}
+
+
+section .main .navebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+section .main .layout {
+    color: white;
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    text-align: center;
+}
+
+
+section .main .layout h1 {
+    margin: 30px auto;
+
+}
+
+
+
+/*==================== end first part style=========================================*/
+
+/*==================== start media for first part style=========================================*/
+
+/*-----------for tablet-------*/
+
+
+@media(max-width:768px) {
+
+    section .main .layout {
+        left: 21%;
+    }
+
+
+    section .main .navebar ul li a {
+        font-size: 17px;
+
+    }
+
+}
+
+/*-----------for mobile-------*/
+
+
+@media(max-width:600px) {
+
+
+    section .main .navebar ul .floatleft .home {
+        font-size: 10px;
+
+    }
+
+    section .main .navebar ul .lihover {
+
+        padding: 3px 5px;
+    }
+
+    section .main .navebar ul .floatright {
+        padding: 5px 9px;
+    }
+
+    section .main .layout {
+        left: 5%;
+    }
+
+    section .main .layout h1 {
+        margin: 15px auto;
+        font-size: 17px;
+    }
+
+    section .main .layout p {
+        font-size: 12px;
+    }
+
+}
+
+/*==============================end media for first part style==================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============================start second part==================================*/
+
+.about {
+    height: auto;
+}
+
+
+.about h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+.about .hr1 {
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    height: 3px;
+}
+
+.about .hr2 {
+    width: 45%;
+    margin: 15px auto;
+    border: 2px dashed white;
+}
+
+
+.about .hr3 {
+    width: 35%;
+    margin: 15px auto;
+    border: 2px dashed white;
+}
+
+
+.about .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.about .content .image {
+    width: 30%;
+    background-color: blue;
+    height: auto;
+}
+
+
+.about .content .image .img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.about .content .text {
+    width: 70%;
+    background-color: black;
+    height: auto;
+    color: white;
+    text-align: center;
+
+}
+
+
+.about .content .text h1 {
+    margin: 15px;
+    font-size: bold;
+}
+
+.about .content .text p {
+    margin: 20px;
+    font-size: 19px;
+}
+
+
+
+
+
+
+/*==============================end second part==================================*/
+
+
+/*==================== start media for second part style=========================================*/
+
+/*-----------for tablet-------*/
+
+
+@media(max-width:768px) {
+    .about .content .text h1 {
+        font-size: 39px;
+    }
+
+    .about .content .image {
+        width: 50%;
+    }
+
+    .about .content .text p {
+        font-size: 13px;
+    }
+
+
+
+}
+
+/*-----------for mobile-------*/
+
+
+@media(max-width:600px) {
+
+    .about .content .text h1 {
+        font-size: 19px;
+    }
+
+    .about .content .image {
+        width: 55%;
+    }
+
+    .about .content .text p {
+        font-size: 10px;
+    }
+
+
+
+}
+
+/*==============================end media for second part style==================================*/
+
+
+
+
+
+
+/*======================= start gallary style======================*/
+
+.Gallary {
+    height: auto;
+}
+
+
+.Gallary h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+.Gallary .hr1 {
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    height: 3px;
+}
+
+.Gallary .hr2 {
+    width: 45%;
+    margin: 15px auto;
+    border: 2px dashed white;
+}
+
+
+.Gallary .hr3 {
+    width: 35%;
+    margin: 15px auto;
+    border: 2px dashed white;
+}
+
+
+.but {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.Gallary .but {
+    margin-top: 40px;
+    border-bottom: 2px solid white;
+    height: auto;
+}
+
+.Gallary .but .test3 {
+    margin-left: 500px;
+    /*padding: 10px 15px;*/
+    border-radius: 15px;
+    background-color: blueviolet;
+    font-size: 15px;
+}
+
+.Gallary .but .test2 {
+    margin-left: 45%;
+    /*padding: 10px 15px;*/
+    border-radius: 15px;
+    background-color: blueviolet;
+    font-size: 15px;
+}
+
+.Gallary .but .test {
+    margin-left: 15px;
+    /*padding: 10px 15px;*/
+    border-radius: 15px;
+    background-color: blueviolet;
+    font-size: 15px;
+}
+
+.mm {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+
+
+
+}
+
+.mm .image1 .img2 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.mm .image2 .img3 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 20px;
+
+}
+
+.mm .image3 .img4 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 20px;
+
+
+}
+
+.mm .image4 .img5 {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+
+}
+
+.mm .image5 .img6 {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+
+/*======================= end gallary style======================*/
+
+
+/*==================== start media for gallary style=========================================*/
+
+/*-----------for tablet-------*/
+
+
+@media(max-width:768px) {
+
+    .Gallary .but .test3 {
+        margin-left: 138px;
+    }
+
+    .Gallary .but .test2 {
+        margin-left: 15%;
+    }
+
+    .Gallary .but .test {
+        margin-left: 186px;
+    }
+
+    .mm .image1 .img2 {
+        width: 229px;
+    }
+
+    .mm .image2 .img3 {
+        width: 197px;
+    }
+
+    .mm .image3 .img4 {
+        width: 229px;
+        margin-top: 37px;
+        margin-left: 28px;
+    }
+
+    .mm .image4 .img5 {
+        width: 234px;
+        margin-top: 37px;
+        border-radius: 20px;
+        margin-left: 178px;
+    }
+
+
+
+
+
+
+
+}
+
+/*-----------for mobile-------*/
+
+
+@media(max-width:600px) {}
+
+/*==============================end media for second part style==================================*/
+
+
+
+
+
+
+/*================================== start contact style===================================*/
+
+
+.contact {
+    height: auto;
+}
+
+
+.contact h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+.contact .hr1 {
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    height: 3px;
+}
+
+.contact .hr2 {
+    width: 45%;
+    margin: 15px auto;
+    border: 2px dashed white;
+}
+
+
+.contact .hr3 {
+    width: 35%;
+    margin: 15px auto;
+    border: 2px dashed white;
+}
+
+.mm2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.dv1{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-color: black;
+}
+
+.mm2 .dv1 .di1{
+    display: inline-block;
+    font-size: 40px;
+}
+
+.mm2 .dv1 .di1 .em{
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.mm2 .dv1 .di1 .il{
+    width: 250px;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.mm2 .dv1 .di2{
+    float: left;
+}
+
+.mm2 .dv1 .di2 .il1{
+    width: 250px;
+    padding: 5px 10px;
+    border-radius: 7px;
+
+}
+
+.mm2 .dv1 .di2 .pa{
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.mm2 .dv1 .di3 .ad{
+    text-align: center;
+    font-size: 20px;
+    margin-right: 120px;
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+/*================================== end contact style========================================*/
