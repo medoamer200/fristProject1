@@ -416,24 +416,24 @@ section .main .layout h1 {
 }
 
 .Gallary .but .test3 {
-    margin-left: 500px;
-    /*padding: 10px 15px;*/
+    margin-left: 429px;
+    padding: 10px 15px;
     border-radius: 15px;
     background-color: blueviolet;
     font-size: 15px;
 }
 
 .Gallary .but .test2 {
-    margin-left: 45%;
-    /*padding: 10px 15px;*/
+    margin-left: 36%;
+    padding: 10px 15px;
     border-radius: 15px;
     background-color: blueviolet;
     font-size: 15px;
 }
 
 .Gallary .but .test {
-    margin-left: 15px;
-    /*padding: 10px 15px;*/
+    margin-left: 58px;
+    padding: 10px 15px;
     border-radius: 15px;
     background-color: blueviolet;
     font-size: 15px;
@@ -588,65 +588,207 @@ section .main .layout h1 {
     border: 2px dashed white;
 }
 
-.mm2{
-    width: 100%;
+.mm2 {
+    width: 50%;
     height: 100%;
     background-color: black;
     overflow: hidden;
+    display: flex;
 }
 
-.dv1{
+.mm2 .pp {
+    font-size: 39px;
+    padding: 13px 150px;
+    color: blueviolet;
+}
+
+.mm3{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    display: flex;
+}
+
+
+.dv1 {
     width: 50%;
     height: 100%;
-    display: inline-block;
     background-color: black;
+    display: flex;
+    flex: auto;
 }
 
-.mm2 .dv1 .di1{
-    display: inline-block;
-    font-size: 40px;
-}
-
-.mm2 .dv1 .di1 .em{
-    text-align: center;
-    font-size: 20px;
-    color: blueviolet;
-}
-
-.mm2 .dv1 .di1 .il{
-    width: 250px;
-    padding: 5px 10px;
-    border-radius: 7px;
-}
-
-.mm2 .dv1 .di2{
-    float: left;
-}
-
-.mm2 .dv1 .di2 .il1{
-    width: 250px;
-    padding: 5px 10px;
-    border-radius: 7px;
-
-}
-
-.mm2 .dv1 .di2 .pa{
-    text-align: center;
-    font-size: 20px;
-    color: blueviolet;
-}
-
-.mm2 .dv1 .di3 .ad{
-    text-align: center;
-    font-size: 20px;
-    margin-right: 120px;
+.mm3 .dv1 .di1 {
+    padding: 10px;
     color: blueviolet;
 }
 
 
+.mm3 .dv1 .di1 .em {
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+    padding-bottom: 15px;
+}
+
+.mm3 .dv1 .di1 .il{
+    width: 140%;
+    height: 24px;
+    border-radius: 10px;
+
+}
 
 
+.mm3 .dv1 .di2{
+    /* float: right; */
+    width: 58%;
+    padding: 10px;
+}
+
+ .mm3 .dv1 .di2 .pa{
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+    padding-bottom: 15px;
+
+}
+
+.mm3 .dv1 .di2 .il1{
+    width: 58%;
+    height: 24px;
+    border-radius: 10px;
+
+}
 
 
+.mm4 {
+    width: 50%;
+    height: 100%; 
+    text-align: center;
+}
+
+.mm4 .di3{
+    padding: 19px 10px
+}
+.mm4 .di3 .ad{
+    color: blueviolet;
+    font-size: 24px;
+    padding-right: 132px;
+    padding-bottom: 12px;
+}
+
+.mm4 .di3 .pu{
+    padding-right: 220px;
+    height: 28px;
+    width: 64%;
+    border-radius: 10px;
+}
+
+.mm5{
+    width: 50%;
+    height: 100%; 
+    text-align: center;
+}
+
+.mm5 .di4 {
+    padding: 19px 10px
+}
+.mm5 .di4 .ad1{
+    color: blueviolet;
+    font-size: 24px;
+    padding-right: 132px;
+    padding-bottom: 12px;
+}
+
+.mm5 .di4 .pu1{
+    padding-right: 220px;
+    height: 28px;
+    width: 64%;
+    border-radius: 10px;
+}
+
+
+.mm6{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    display: flex;
+
+}
+
+.dv2{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex: auto;
+}
+
+.mm6 .dv2 .di5 {
+    padding: 10px;
+    color: blueviolet;
+}
+
+.mm6 .dv2 .di5 .ad2{
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+    padding-bottom: 15px;
+
+}
+
+.mm6 .dv2 .di5 .pu2{
+    width: 153%;
+    height: 26px;
+    border-radius: 10px;
+
+}
+
+.mm6 .dv2 .di6 {
+    /* float: right; */
+    width: 58%;
+    padding: 10px;
+}
+
+.mm6 .dv2 .di6 .ad3 {
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+    padding-bottom: 15px;
+}
+
+.mm6 .dv2 .di6 .pu3 {
+    width: 34%;
+    height: 24px;
+    /* border-radius: 10px; */
+}
+
+.mm7{
+    width: 610px;
+    text-align: center;
+    height: 29px;
+}
+
+.di8{
+    padding-right: 82px;
+
+}
+
+.mm7 .pu4{
+    width: 506px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+}
+.mm7 .pu4 a{
+    color: white;
+}
+.mm7 .pu4:hover{
+    background-color: blue;
+}
+.map{
+    float: right;
+    width: 50%;
+}
 
 /*================================== end contact style========================================*/
