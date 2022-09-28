@@ -162,15 +162,40 @@ section .main .layout h1 {
 
 /*==================== start media for first part style=========================================*/
 
-/*-----------for tablet-------*/
 
+/*-----------for tablet-------*/
 
 @media(max-width:768px) {
 
-    section .main .layout {
-        left: 21%;
+    body {
+        width: 128%;
     }
 
+    section {
+        height: 90vh;
+        width: 44%;
+    }
+
+    section .main .navebar ul .floatleft .home {
+        font-size: 11px;
+    }
+
+
+
+    section .main .navebar ul .lihover {
+        padding: 3px 7px;
+        font-size: 17px;
+    }
+
+
+    section .main .layout {
+        left: 2%;
+    }
+
+    section .main .layout h1 {
+        font-size: 16px;
+        margin: 13px auto;
+    }
 
     section .main .navebar ul li a {
         font-size: 17px;
@@ -184,33 +209,36 @@ section .main .layout h1 {
 
 @media(max-width:600px) {
 
-
-    section .main .navebar ul .floatleft .home {
-        font-size: 10px;
-
+    body {
+        width: 220%;
     }
 
-    section .main .navebar ul .lihover {
-
-        padding: 3px 5px;
-    }
-
-    section .main .navebar ul .floatright {
-        padding: 5px 9px;
+    section {
+        height: 485px;
     }
 
     section .main .layout {
-        left: 5%;
+        left: 20%;
+    }
+
+    section .main .navebar ul .lihover {
+        padding: 0px 0px;
+        font-size: 21px;
     }
 
     section .main .layout h1 {
-        margin: 15px auto;
-        font-size: 17px;
+        margin: 28px auto;
+        font-size: 25px;
+        margin-right: 55px;
     }
 
     section .main .layout p {
-        font-size: 12px;
+        font-size: 13px;
+        margin-left: -65px;
     }
+
+
+
 
 }
 
@@ -323,8 +351,30 @@ section .main .layout h1 {
 
 
 @media(max-width:768px) {
+
+    .about h1 {
+        font-size: 25px;
+
+    }
+
+    .about .hr1 {
+
+        width: 25%;
+        height: 1px;
+    }
+
+    .about .hr2 {
+        width: 30%;
+        border: 1px dashed white;
+    }
+
+    .about .hr3 {
+        width: 25%;
+        border: 1px dashed white;
+    }
+
     .about .content .text h1 {
-        font-size: 39px;
+        font-size: 28px;
     }
 
     .about .content .image {
@@ -332,7 +382,7 @@ section .main .layout h1 {
     }
 
     .about .content .text p {
-        font-size: 13px;
+        font-size: 10px;
     }
 
 
@@ -344,21 +394,44 @@ section .main .layout h1 {
 
 @media(max-width:600px) {
 
-    .about .content .text h1 {
-        font-size: 19px;
+
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .about .hr1 {
+        width: 50%;
+        height: 2px;
+
+    }
+
+    .about .hr2 {
+        width: 40%;
+        border: 1px dashed white;
+    }
+
+    .about .hr3 {
+        width: 30%;
+        border: 1px dashed white;
     }
 
     .about .content .image {
-        width: 55%;
+        width: 80%;
+        margin-right: 5px;
+    }
+
+    .about .content .text h1 {
+        font-size: 30px;
     }
 
     .about .content .text p {
-        font-size: 10px;
+
+        font-size: 20px;
+
     }
-
-
-
 }
+
 
 /*==============================end media for second part style==================================*/
 
@@ -486,6 +559,15 @@ section .main .layout h1 {
     width: 300px;
     margin-top: 20px;
     border-radius: 20px;
+    margin-left: 230px;
+
+}
+
+.mm .image6 .img7 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 20px;
 }
 
 
@@ -500,38 +582,226 @@ section .main .layout h1 {
 
 @media(max-width:768px) {
 
+    .Gallary h1 {
+        font-size: 25px;
+    }
+
+    .Gallary .hr1 {
+
+        width: 50%;
+        height: 1px;
+    }
+
+    .Gallary .hr2 {
+        width: 30%;
+        border: 1px dashed white;
+    }
+
+    .Gallary .hr3 {
+        width: 25%;
+        border: 1px dashed white;
+    }
+
+    .Gallary .but {
+        margin-top: 25px;
+    }
+
     .Gallary .but .test3 {
-        margin-left: 138px;
+        margin-left: 30%;
+        font-size: 10px;
+        padding: 8px 5px;
     }
 
     .Gallary .but .test2 {
-        margin-left: 15%;
+        padding: 8px 5px;
+        margin-left: 30%;
+        font-size: 10px;
     }
 
+
     .Gallary .but .test {
-        margin-left: 186px;
+        margin-left: 13px;
+        font-size: 10px;
+        padding: 8px 5px;
     }
 
     .mm .image1 .img2 {
-        width: 229px;
+        width: 140px;
+        height: 90px;
+    }
+
+    .mm .image2 {
+        width: 50%;
     }
 
     .mm .image2 .img3 {
-        width: 197px;
+        width: 140px;
+        height: 90px;
+        margin-left: 102px;
     }
 
     .mm .image3 .img4 {
-        width: 229px;
-        margin-top: 37px;
-        margin-left: 28px;
+        width: 140px;
+        height: 90px;
+        margin-left: 30px;
+    }
+
+    .mm .image4 {
+        width: 50%
     }
 
     .mm .image4 .img5 {
-        width: 234px;
-        margin-top: 37px;
-        border-radius: 20px;
-        margin-left: 178px;
+        width: 140px;
+        height: 90px;
+        margin-left: 102px;
     }
+
+    .mm .image5 {
+        width: 50%
+    }
+
+    .mm .image5 .img6 {
+        width: 140px;
+        height: 90px;
+        margin-left: 30px;
+    }
+
+    .mm .image6 .img7 {
+        width: 140px;
+        height: 90px;
+        margin-left: 50px;
+    }
+}
+
+/*-----------for mobile-------*/
+
+
+@media(max-width:600px) {
+
+    .Gallary .but .test {
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .Gallary .but .test2 {
+        margin-left: 12%;
+        font-size: 31px;
+    }
+
+    .Gallary .but .test3 {
+        margin-left: 133px;
+        font-size: 33px;
+    }
+
+    .Gallary h1 {
+        font-size: 30px;
+    }
+
+    .Gallary .hr1 {
+        width: 50%;
+        height: 2px;
+
+    }
+
+    .Gallary .hr2 {
+        width: 40%;
+        border: 1px dashed white;
+    }
+
+    .Gallary .hr3 {
+        width: 30%;
+        border: 1px dashed white;
+    }
+
+    .Gallary .but .test {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+
+    .Gallary .but .test2 {
+        margin-left: 18%;
+        font-size: 15px;
+    }
+
+    .Gallary .but .test3 {
+        margin-left: 55px;
+        font-size: 15px;
+    }
+
+    .mm .image1 {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .mm .image1 .img2 {
+
+        width: 95%;
+        height: auto;
+        margin-left: 8px;
+    }
+
+    .mm .image2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .mm .image2 .img3 {
+
+        width: 95%;
+        height: auto;
+        margin-left: 8px;
+    }
+
+    .mm .image3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .mm .image3 .img4 {
+
+        width: 95%;
+        height: auto;
+        margin-left: 8px;
+    }
+
+    .mm .image4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .mm .image4 .img5 {
+
+        width: 95%;
+        height: auto;
+        margin-left: 8px;
+    }
+
+
+    .mm .image5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .mm .image5 .img6 {
+
+        width: 95%;
+        height: auto;
+        margin-left: 8px;
+    }
+
+    .mm .image6 {
+        width: 100%;
+        height: auto;
+    }
+
+    .mm .image6 .img7 {
+
+        width: 95%;
+        height: auto;
+        margin-left: 8px;
+    }
+
 
 
 
@@ -541,10 +811,7 @@ section .main .layout h1 {
 
 }
 
-/*-----------for mobile-------*/
 
-
-@media(max-width:600px) {}
 
 /*==============================end media for second part style==================================*/
 
@@ -602,7 +869,7 @@ section .main .layout h1 {
     color: blueviolet;
 }
 
-.mm3{
+.mm3 {
     width: 50%;
     height: auto;
     text-align: center;
@@ -631,7 +898,7 @@ section .main .layout h1 {
     padding-bottom: 15px;
 }
 
-.mm3 .dv1 .di1 .il{
+.mm3 .dv1 .di1 .il {
     width: 140%;
     height: 24px;
     border-radius: 10px;
@@ -639,13 +906,13 @@ section .main .layout h1 {
 }
 
 
-.mm3 .dv1 .di2{
+.mm3 .dv1 .di2 {
     /* float: right; */
     width: 58%;
     padding: 10px;
 }
 
- .mm3 .dv1 .di2 .pa{
+.mm3 .dv1 .di2 .pa {
     text-align: center;
     font-size: 20px;
     color: blueviolet;
@@ -653,7 +920,7 @@ section .main .layout h1 {
 
 }
 
-.mm3 .dv1 .di2 .il1{
+.mm3 .dv1 .di2 .il1 {
     width: 58%;
     height: 24px;
     border-radius: 10px;
@@ -663,44 +930,46 @@ section .main .layout h1 {
 
 .mm4 {
     width: 50%;
-    height: 100%; 
+    height: 100%;
     text-align: center;
 }
 
-.mm4 .di3{
+.mm4 .di3 {
     padding: 19px 10px
 }
-.mm4 .di3 .ad{
+
+.mm4 .di3 .ad {
     color: blueviolet;
     font-size: 24px;
     padding-right: 132px;
     padding-bottom: 12px;
 }
 
-.mm4 .di3 .pu{
+.mm4 .di3 .pu {
     padding-right: 220px;
     height: 28px;
     width: 64%;
     border-radius: 10px;
 }
 
-.mm5{
+.mm5 {
     width: 50%;
-    height: 100%; 
+    height: 100%;
     text-align: center;
 }
 
 .mm5 .di4 {
     padding: 19px 10px
 }
-.mm5 .di4 .ad1{
+
+.mm5 .di4 .ad1 {
     color: blueviolet;
     font-size: 24px;
     padding-right: 132px;
     padding-bottom: 12px;
 }
 
-.mm5 .di4 .pu1{
+.mm5 .di4 .pu1 {
     padding-right: 220px;
     height: 28px;
     width: 64%;
@@ -708,7 +977,7 @@ section .main .layout h1 {
 }
 
 
-.mm6{
+.mm6 {
     width: 50%;
     height: auto;
     text-align: center;
@@ -716,7 +985,7 @@ section .main .layout h1 {
 
 }
 
-.dv2{
+.dv2 {
     width: 50%;
     height: 100%;
     background-color: black;
@@ -729,7 +998,7 @@ section .main .layout h1 {
     color: blueviolet;
 }
 
-.mm6 .dv2 .di5 .ad2{
+.mm6 .dv2 .di5 .ad2 {
     text-align: center;
     font-size: 20px;
     color: blueviolet;
@@ -737,7 +1006,7 @@ section .main .layout h1 {
 
 }
 
-.mm6 .dv2 .di5 .pu2{
+.mm6 .dv2 .di5 .pu2 {
     width: 153%;
     height: 26px;
     border-radius: 10px;
@@ -763,32 +1032,354 @@ section .main .layout h1 {
     /* border-radius: 10px; */
 }
 
-.mm7{
+.mm7 {
     width: 610px;
     text-align: center;
     height: 29px;
 }
 
-.di8{
+.di8 {
     padding-right: 82px;
 
 }
 
-.mm7 .pu4{
+.mm7 .pu4 {
     width: 506px;
     height: 28px;
     background-color: blue;
     color: white;
 }
-.mm7 .pu4 a{
+
+.mm7 .pu4 a {
     color: white;
 }
-.mm7 .pu4:hover{
+
+.mm7 .pu4:hover {
     background-color: blue;
 }
-.map{
+
+.map {
     float: right;
     width: 50%;
 }
 
 /*================================== end contact style========================================*/
+
+@media(max-width:768px) {
+    .contact h1 {
+        font-size: 25px;
+
+    }
+
+    .contact .hr1 {
+        width: 50%;
+        margin: 10px auto;
+        background-color: white;
+        height: 3px;
+    }
+
+    .contact .hr2 {
+        width: 45%;
+        margin: 15px auto;
+        border: 2px dashed white;
+    }
+
+
+    .contact .hr3 {
+        width: 35%;
+        margin: 15px auto;
+        border: 2px dashed white;
+    }
+
+    .mm2 .pp {
+        font-size: 19px;
+        padding: 5px 56px;
+    }
+
+    .mm3 .dv1 .di1 {
+        padding: 5px;
+    }
+
+    .mm3 .dv1 .di1 .em {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+
+
+    .mm3 .dv1 .di1 .il {
+        width: 100px;
+        height: 18px;
+        border-radius: 5px;
+    }
+
+
+    .mm3 .dv1 .di2 {
+        width: 58%;
+        padding: 5px;
+    }
+
+
+    .mm3 .dv1 .di2 .pa {
+        font-size: 17px;
+        padding-bottom: 6px;
+
+    }
+
+    .mm3 .dv1 .di2 .il1 {
+        width: 80px;
+        height: 18px;
+        border-radius: 5px;
+    }
+
+    .mm4 .di3 {
+        padding: 14px 4px;
+    }
+
+    .mm4 .di3 .ad {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+
+
+
+    .mm4 .di3 .pu {
+        width: 0px;
+        padding-right: 206px;
+        border-radius: 5px;
+    }
+
+    .mm5 .di4 {
+        padding: 2px 1px;
+    }
+
+    .mm5 .di4 .ad1 {
+        font-size: 15px;
+        padding-left: 70px;
+    }
+
+    .mm5 .di4 .pu1 {
+        width: 0px;
+        padding-right: 206px;
+        border-radius: 5px;
+    }
+
+    .mm6 .dv2 .di5 .ad2 {
+        font-size: 15px;
+        padding-right: 66px;
+    }
+
+    .mm6 .dv2 .di5 .pu2 {
+        width: 95px;
+        height: 24px;
+        border-radius: 5px;
+    }
+
+    .mm6 .dv2 .di6 .ad3 {
+        font-size: 15px;
+        padding-right: 4px;
+    }
+
+    .mm6 .dv2 .di6 .pu3 {
+        border-radius: 4px;
+        width: 50px;
+        height: 23px;
+    }
+
+    .contact .map {
+        width: 50%;
+        height: 100vh;
+    }
+
+    .contact .map iframe {
+        border: 0;
+        width: 100%;
+        height: 115%;
+    }
+
+    .mm7 {
+        width: 100px;
+    }
+
+    .mm7 .pu4 {
+        width: 433px;
+        height: 28px;
+    }
+
+}
+
+
+/*-----------for mobile-------*/
+
+
+@media(max-width:600px) {
+
+
+    .contact h1 {
+        font-size: 30px;
+    }
+
+    .contact .hr1 {
+        width: 50%;
+        height: 2px;
+
+    }
+
+    .contact .hr2 {
+        width: 40%;
+        border: 1px dashed white;
+    }
+
+    .contact .hr3 {
+        width: 30%;
+        border: 1px dashed white;
+    }
+
+
+    .contact .map {
+
+        width: 100%;
+        height: 100vh;
+    }
+
+    .contact .map iframe {
+
+        border: 0;
+        width: 100%;
+        height: 90vh;
+    }
+
+
+    .mm2 {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .mm2 .pp {
+        font-size: 35px;
+    }
+
+    .mm3 {
+        width: 100%;
+    }
+
+    .mm3 .dv1 {
+        width: 100%;
+        display: block;
+    }
+
+    .mm3 .dv1 .di1 {
+        padding: 10px;
+    }
+
+    .mm3 .dv1 .di1 .em {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+
+    .mm3 .dv1 .di1 .il {
+        width: 100%;
+        height: 24px;
+    }
+
+    .mm3 .dv1 .di2 {
+        width: 100%;
+        padding: 1px;
+    }
+
+    .mm3 .dv1 .di2 .pa {
+        font-size: 20px;
+        padding-bottom: 12px;
+
+    }
+
+    .mm3 .dv1 .di2 .il1 {
+        width: 94%;
+        height: 25px;
+
+    }
+
+    .mm4 {
+        width: 100%;
+    }
+
+    .mm4 .di3 .ad {
+        font-size: 24px;
+    }
+
+    .mm4 .di3 .pu {
+        width: 30%;
+    }
+
+    .mm5 {
+        width: 100%;
+        /* margin-left: 25px; */
+    }
+
+    .mm5 .di4 .ad1 {
+        font-size: 25px;
+        padding-left: 100px;
+    }
+
+    .mm5 .di4 .pu1 {
+        width: 30%;
+
+    }
+
+    .mm6 {
+        width: 100%;
+    }
+
+    .mm6 .dv2 .di5 {
+        width: 60%;
+    }
+
+    .mm6 .dv2 .di5 .ad2 {
+        font-size: 20px;
+        padding-left: 50px;
+    }
+
+    .mm6 .dv2 .di5 .pu2 {
+        width: 100%;
+    }
+
+    .mm6 .dv2 .di6 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .mm6 .dv2 .di6 .ad3 {
+        font-size: 20px;
+        padding: 9px 11px;
+
+    }
+
+    .mm6 .dv2 .di6 .pu3 {
+        width: 100%;
+    }
+
+    .mm7 .pu4 {
+        width: 310px;
+        height: 29px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*==============================end media for second part style==================================*/
